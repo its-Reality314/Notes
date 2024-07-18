@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include("partials/header"); -%>
+  <style>
+    /* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e8f1f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.about-container h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.about-text p, .website-details p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin: 1rem 0;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+.about-text p:hover, .website-details p:hover {
+    color: #2980b9;
+}
+
+.website-details h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.website-details p {
+    margin: 0.5rem 0;
+}
+
+.website-details strong {
+    color: #2980b9;
+}
+
+header, footer {
+    background-color: #2980b9;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+header h1, footer p {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    transition: color 0.3s ease;
+}
+
+header:hover, footer:hover {
+    background-color: #1c638d;
+}
+
+header h1:hover, footer p:hover {
+    color: #ffffff;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+  </style>
+</head>
+
+<body>
+    <div class="about-container">
+        <h1>About Us</h1>
+        <div class="about-text">
+            <p>Welcome to our note-making website! We are dedicated to providing you with a simple and efficient platform to jot down your thoughts, ideas, and important information.</p>
+            <p>Our mission is to help you stay organized and never miss a beat. Whether you're a student, professional, or anyone who needs a reliable note-taking solution, we've got you covered.</p>
+            <p>Feel free to explore our features and start creating notes that matter to you. We're here to make your note-taking experience smooth and enjoyable.</p>
+        </div>
+        <div class="website-details">
+            <h2>Website Details</h2>
+            <p><strong>Website Name:</strong> Note the Thoughts</p>
+            <p><strong>Founded:</strong> 2023</p>
+            <p><strong>Contact Email:</strong> amanchandra4617@gmail.com</p>
+        </div>
+    </div>
+</body>
+
+
+

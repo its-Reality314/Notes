@@ -1,0 +1,25 @@
+
+<style>
+    .compose-form{
+        margin-top: 20px;
+        padding: 20px;
+    }
+    .all{
+        max-width: 70%;
+        margin: auto;
+        background-color: gray;
+        border-radius: 20px;
+    }
+</style>
+<div class="all">
+    <form class="compose-form" action="/compose" method="post">
+        <label for="title">Title</label>
+        <input style="width: 800px; margin-left: 20px;" type="text" name="title">
+        
+        <label for="post">Post</label>
+        <textarea style="width: 800px; height: 100px; margin-left: 20px;" name="post" cols="70" rows="11"></textarea>
+        <br>
+        <button class="butt" type="submit">POST</button>
+    </form>
+</div>
+

@@ -1,0 +1,13 @@
+<%- include("partials/header"); -%>
+<h1>EDIT</h1>
+        <form class="compose-form" action="/edit" method="post">
+            <label for="title"><strong>Title</strong></label>
+            <input style="width: 420px; margin-left: 20px;" type="text" name="title">
+            
+            <label for="post"><strong>add</strong></label>
+            <textarea style="width: 1200px; margin-left: 20px;" name="new" cols="70" rows="11"></textarea>
+            <br>
+            <button type="submit">EDIT</button>
+        </form>
+    </div>
+<%- include("partials/footer"); -%>

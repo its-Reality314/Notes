@@ -1,0 +1,22 @@
+{
+  "name": "blog-site",
+  "version": "1.0.0",
+  "description": "my personalized blog site",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kunal Sinha",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^7.3.4",
+    "nodemon": "^3.0.2",
+    "pg": "^8.11.3"
+  }
+}

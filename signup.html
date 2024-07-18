@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up/Sign in</title>
+  <link rel="stylesheet" href="/css/styles2.css">
+</head>
+
+<body>
+
+  <main class="ll">
+    <div class="formm">
+      <img src="./images/logo.png" alt="KS company">
+      <form action="/signup" class="f" method="post" onsubmit="return validate()">
+        <input class="top" type="text" name="firstName" autocomplete="off" placeholder="First Name" required>
+        <input class="mid" type="text" name="lastName" autocomplete="off" placeholder="Last Name" required>
+        <input id="email" class="mid" type="email" name="email" autocomplete="off" placeholder="Email" required>
+        <input id="password" class="end pass" type="password" name="password" placeholder="Create Password" autocomplete="off" required>
+        <button type="submit">Sign Up</button>
+      </form>
+      <div>
+        <p class="amanc1">Already Signed Up?</p>
+        <a href="/">Click here to login</a>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    function validate() {
+      // Add your validation logic here
+      return true;
+    }
+  </script>
+
+</body>
+
+</html>

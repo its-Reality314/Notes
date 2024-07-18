@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+   /* Import Google Fonts */
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #00c6ff, #0072ff); /* Gradient from aqua to darker blue */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-container {
+
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+#contact-cont{
+    margin-top: 50px;
+}
+
+.contact-container:hover {
+    transform: translateY(+10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: aqua;
+}
+
+.contact-container h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+}
+
+.contact-info p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin: 1rem 0;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+.contact-info p strong {
+    color: #2980b9;
+}
+
+.contact-info p a {
+    color: #2980b9;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-info p a:hover {
+    color: #1c638d;
+    text-decoration: underline;
+}
+
+header, footer {
+    background-color: #2980b9;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+header h1, footer p {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    transition: color 0.3s ease;
+}
+
+header:hover, footer:hover {
+    background-color: #1c638d;
+}
+
+header h1:hover, footer p:hover {
+    color: #ffffff;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+  </style>
+</head>
+
+<%- include("partials/header"); -%>
+<div id="contact-cont" class="contact-container">
+    <h1>Contact Information</h1>
+    <div class="contact-info">
+        <p><strong>Name:</strong> Aman Chandra</p>
+        <p><strong>Address:</strong> Sakti, Chhattisgarh</p>
+        <p><strong>Mobile No:</strong> 6268893220</p>
+        <p><strong>Email:</strong> amanchandra4617@gmail.com</p>
+    </div>
+</div>
